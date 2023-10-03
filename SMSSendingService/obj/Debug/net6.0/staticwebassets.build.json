@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OlQNothocnOw1N/1CL8aqUS81neBk5W3VhR9Hd1t+aU=",
+  "Source": "SMSSendingService",
+  "BasePath": "_content/SMSSendingService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
