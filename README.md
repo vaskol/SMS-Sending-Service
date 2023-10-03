@@ -1,5 +1,5 @@
 # SMS-Sending-Service
-An SMS Sending service that has a rest api controller that we can sent an http request to send the message. The service was created as a demonstration of skills in dependency injection, Entity Framework, AutoMapper, and design patterns.
+An SMS Sending service that has a rest api controller that we can sent an http request to send the message. The service was created as a demonstration of skills in dependency injection, Entity Framework, AutoMapper, design patterns and xUnit testing tool for the .NET Framework.
 
 # Getting Started
  
