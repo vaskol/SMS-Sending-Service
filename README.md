@@ -13,8 +13,8 @@ Visual Studio
  
 # To install the SMS Sending Service:
 Clone this repository to your local machine.
-Open the SMSSendingService.sln solution file in Visual Studio.
-Run the Update-Database command in the Package Manager Console to create the database.
+Open the SMSSendingService.csproj file in Visual Studio and add the project below TestSMSProject.csproj.
+Ensure you have set up the database.
 Run the project by pressing F5 or clicking the "Play" button in Visual Studio.
 # Usage
  
