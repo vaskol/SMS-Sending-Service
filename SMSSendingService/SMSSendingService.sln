@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSSendingService", "SMSSendingService.csproj", "{7EB1C332-E341-4CC7-BAC4-723B661E33BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestSMSProject", "..\TestSMSProject\TestSMSProject.csproj", "{BA75283E-E50B-4A53-AFA5-B22F1FB24340}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EB1C332-E341-4CC7-BAC4-723B661E33BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EB1C332-E341-4CC7-BAC4-723B661E33BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EB1C332-E341-4CC7-BAC4-723B661E33BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EB1C332-E341-4CC7-BAC4-723B661E33BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA75283E-E50B-4A53-AFA5-B22F1FB24340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA75283E-E50B-4A53-AFA5-B22F1FB24340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA75283E-E50B-4A53-AFA5-B22F1FB24340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA75283E-E50B-4A53-AFA5-B22F1FB24340}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58ED507A-567F-4BC5-BCDA-1EE96342587C}
+	EndGlobalSection
+EndGlobal
