@@ -33,7 +33,7 @@ Content-Type: application/json
   "Number": "+306989999999",  
   "Message":"Γειά σου κόσμε!",  
   "SenderNumber": "+306989999999",  
-  "SentRate": "2022-08-31T08:00:00Z",  
+  "SentDate": "2022-08-31T08:00:00Z",  
   "Status": "sent"  
 }  
 
