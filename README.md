@@ -3,7 +3,7 @@ An SMS Sending service that has a rest api controller that we can sent an http r
 
 # Getting Started
  
-To get started with the SMS Sending Service, you'll need to clone this repository and add as existing items the SMSSendingService.csproj and the TestSMSProject.csproj in Visual Studio. You'll also need to set up the local database to persist SMS messages, according to the given script.
+To get started with the SMS Sending Service, you'll need to clone this repository in Visual Studio. You'll also need to set up the local database to persist SMS messages. According to the instructions below.
 # Prerequisites
  
 Before you can run the SMS Sending Service, you'll need to have the following installed on your machine:
@@ -13,9 +13,12 @@ Visual Studio
  
 # To install the SMS Sending Service:
 Clone this repository to your local machine.
-Open the SMSSendingService.csproj file in Visual Studio and add the project below TestSMSProject.csproj.
-Ensure you have set up the database, according to the script.
-Run the project by pressing F5 or clicking the "Play" button in Visual Studio.
+Go to the Package Manager Console and type the following two instructions:
+   Add-Migration InitialCreate
+   Update-Database
+This will create the database.
+
+Run the project by pressing F5 or clicking the "Play" button in Visual Studio and use Postman in order to make some CRUD operations.
 # Usage
  
 To use the SMS Sending Service, you can send a POST request to the /api/sms endpoint with a JSON payload containing the Number and Message properties of the SMS message you want to send. The service will automatically choose a vendor to send the message through based on availability and cost.
