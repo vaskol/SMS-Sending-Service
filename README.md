@@ -9,6 +9,7 @@ To get started with the SMS Sending Service, you'll need to clone this repositor
 Before you can run the SMS Sending Service, you'll need to have the following installed on your machine:
 .NET 5 SDK
 Visual Studio
+Postman
 
  
 # To install the SMS Sending Service:
