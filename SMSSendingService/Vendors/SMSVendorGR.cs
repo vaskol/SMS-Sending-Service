@@ -14,8 +14,8 @@ namespace SMSSendingService.Vendors
         }
         public override void Send(string recipient, string message)
         {
-            // Check if the message contains only Greek characters  
-            if (Regex.IsMatch(message, @"^[\u0370-\u03FF\s]+$"))
+            // Check if the message contains only Greek characters and punctuation is allowed
+            if (Regex.IsMatch(message, @"^[\u0370-\u03FF\s\.,!;«»""΄’]+$"))
             {
                 var internalDTO = new SMS
                 {
