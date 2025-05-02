@@ -28,7 +28,7 @@ To use the SMS Sending Service, you can send a POST request to the /api/sms endp
 
 POST /api/sms  
 Content-Type: application/json  
-  
+//GR 
 {  
   "Number": "+306989999999",  
   "Message":"Γειά σου κόσμε!",  
@@ -36,6 +36,16 @@ Content-Type: application/json
   "SentDate": "2022-08-31T08:00:00Z",  
   "Status": "sent"  
 }  
+
+//REST
+{
+  "Number": "+4742953419",
+  "Message": "Hello Norway!!",
+  "SenderNumber": "+4742953419",
+  "SentDate": "2022-08-31T08:00:00Z",
+  "Status": "sent"
+}
+
 
 ## Example Response
  
