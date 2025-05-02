@@ -37,6 +37,8 @@ Content-Type: application/json
   "Status": "sent"  
 }  
 
+POST /api/sms  
+Content-Type: application/json  
 //REST
 {
   "Number": "+4742953419",
@@ -45,6 +47,8 @@ Content-Type: application/json
   "SentDate": "2022-08-31T08:00:00Z",
   "Status": "sent"
 }
+
+
 
 
 ## Example Response
