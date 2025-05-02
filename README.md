@@ -13,13 +13,14 @@ Postman
 
  
 # To install the SMS Sending Service:
-Clone this repository to your local machine.
-Go to the Package Manager Console and type the following two instructions:
+* Clone this repository to your local machine.
+* Go to the Package Manager Console and type the following two instructions:
    Add-Migration InitialCreate
    Update-Database
 This will create the database.
-Configure the connection string in the appsettings.json file, according to your system, or you can work with localdb.
-After that run the project by pressing F5 or clicking the "Play" button in Visual Studio and use Postman in order to make some CRUD operations, like the one in the following example.
+* Configure the connection string in the appsettings.json file, according to your system, or you can work with localdb.
+* After that run the project by pressing F5 or clicking the "Play" button in Visual Studio.
+* Use Postman in order to make some CRUD operations, like the one in the following example.
 # Usage
  
 To use the SMS Sending Service, you can send a POST request to the /api/sms endpoint with a JSON payload containing the Number and Message properties of the SMS message you want to send. The service will automatically choose a vendor to send the message through based on availability and cost.
