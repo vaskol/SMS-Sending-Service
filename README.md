@@ -19,7 +19,7 @@ Postman
    Update-Database
 This will create the database.
 * Configure the connection string in the appsettings.json file, according to your system, or you can work with localdb.
-* After that run the project by pressing F5 or clicking the "Play" button in Visual Studio.
+* After that, run the project by pressing F5 or clicking the "Play" button in Visual Studio.
 * Use Postman in order to make some CRUD operations, like the one in the following example.
 # Usage
  
